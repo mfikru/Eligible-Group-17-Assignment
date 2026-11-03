@@ -7,8 +7,7 @@ Mezemir, Birku Getie Mihret, Fikru Minwalkulet, Hailemariam Moges, Ekram Yimam
 Mohammed, Fami Abdi Mohammed, and Miftah Abdella Mohammed] 
 ## Purpose
 Estimate the sale price of a residential house from its characteristics, as a decision aid for
-valuation/real-estate screening. *(Align this paragraph with your Module 4 proposal.)*
-It is a **prototype**, not a production valuation system.
+valuation/real-estate screening. It is a **prototype**, not a production valuation system.
 
 ## Data (see Deliverable D)
 Real, public **Kaggle Ames Housing** data: 1,460 training rows, 79 features, target `SalePrice`.
