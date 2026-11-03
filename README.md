@@ -2,9 +2,9 @@
 
 FUSE AI-201 · Module 6: AI Deployment, Monitoring, Support & Maintenance
 
-**Group members and responsibilities:** [Name: e.g. data prep & modelling] · [Name: e.g. MLflow & testing] · [Name: e.g. app & documentation]
-**Links:** GitHub: [URL] · Streamlit app: [URL or "not public; see screenshots in docs/evidence/"] · Video: submitted on Canvas
-
+**Group members members:** [Meron Mengesha, Tenalem Temesgen Mesele, Nebiyu, Arega Mulu 
+Mezemir, Birku Getie Mihret, Fikru Minwalkulet, Hailemariam Moges, Ekram Yimam 
+Mohammed, Fami Abdi Mohammed, and Miftah Abdella Mohammed] 
 ## Purpose
 Estimate the sale price of a residential house from its characteristics, as a decision aid for
 valuation/real-estate screening. *(Align this paragraph with your Module 4 proposal.)*
