@@ -5,8 +5,7 @@ Module 4 proposal → Module 5 implementation → **Module 6: demonstration, dep
 
 | Item | Link |
 | --- | --- |
-| GitHub repository | `[ADD LINK]` |
-| Live Streamlit app | `[ADD LINK, or "run locally, see section 6"]` |
+| GitHub repository | `[https://github.com/mfikru/Eligible-Group-17-Assignment/tree/main]` |
 | Demo video | Submitted on Canvas |
 
 ## 1. What it does
