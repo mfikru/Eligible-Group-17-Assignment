@@ -105,9 +105,10 @@ Nine members; see `docs/TEAM_WORKSTREAMS.md` for the proposed split of the Modul
 | --- | --- |
 | Meron Mengesha | Streamlit app: logging, feedback box, privacy note |
 | Tenalem Temesgen Mesele | REST API |
-| Nebiyu Arega Mulu | Data-drift monitoring |
-| Mezemir Birku Getie | Prediction log and accuracy monitoring |
-| Mihret Fikru Minwalkulet | Fairness audit and responsible AI |
+| Arega Mulu Mezemir| Data-drift monitoring |
+| Nebiyu| Data-drift monitoring |
+| Birku Getie Mihret | Prediction log and accuracy monitoring |
+| Fikru Minwalkulet Workneh| Fairness audit and responsible AI |
 | Hailemariam Moges | Testing and CI |
 | Ekram Yimam Mohammed | Experiment tracking (CSV logs, MLflow) |
 | Fami Abdi Mohammed | Deployment (Docker, GitHub, Streamlit hosting) |
@@ -115,4 +116,4 @@ Nine members; see `docs/TEAM_WORKSTREAMS.md` for the proposed split of the Modul
 
 ## 11. References
 - De Cock, D. (2011). *Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project.* Journal of Statistics Education.
-- Kaggle, *House Prices: Advanced Regression Techniques*: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
+- Kaggle, *House Prices: Advanced Regression Techniques*: https://www.kaggle.com/c/house-prices-advanced-regression-technique
