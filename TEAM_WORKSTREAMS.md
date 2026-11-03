@@ -15,5 +15,3 @@ Nine members, nine workstreams. **This is a proposed split: edit it so it record
 | Miftah Abdella Mohammed | Documentation and presentation | `README.md`, `docs/`, `CHANGELOG.md`, the video | Problem, solution and wrap-up | The implemented / simulated / future-work split; the data statement |
 
 **Shared by everyone:** the model and data work from Module 5, the limitations, and one lesson learned each in the closing segment.
-
-**Rule for the README table:** write what you did in your own words. If someone did not do their proposed workstream, change their line rather than submit a statement that is not true.
