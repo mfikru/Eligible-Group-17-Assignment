@@ -3,7 +3,7 @@
 Ten members, nine workstreams. **This is a proposed split.
 
 | Member | Workstream | 
-| --- | --- | --- | --- | --- |
+
 | Meron Mengesha | Streamlit app | 
 | Tenalem Temesgen Mesele | REST API | 
 | Ekram Yimam Mohammed | Experiment tracking | 
