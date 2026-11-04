@@ -1,0 +1,23 @@
+{
+ "lightgbm": {
+  "n_estimators": 600,
+  "learning_rate": 0.02,
+  "num_leaves": 16,
+  "min_child_samples": 5,
+  "subsample": 0.7,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.4,
+  "reg_lambda": 0.0,
+  "random_state": 42,
+  "verbose": -1,
+  "n_jobs": 1
+ },
+ "random_forest": {
+  "n_estimators": 300,
+  "max_features": 0.4,
+  "min_samples_leaf": 1,
+  "max_depth": null
+ },
+ "w_linear": 0.5,
+ "lasso_alpha_note": "chosen by internal CV (LassoCV)"
+}
