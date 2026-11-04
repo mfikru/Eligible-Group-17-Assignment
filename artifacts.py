@@ -12,12 +12,16 @@ INFO_PATH = BASE_DIR / "metrics.json"
 
 def load_artifacts():
 
+    for path in [MODEL_PATH, DEFAULTS_PATH, INFO_PATH]:
+        if not path.exists():
+            raise FileNotFoundError(f"Missing file: {path}")
+
     model = joblib.load(MODEL_PATH)
 
-    with open(DEFAULTS_PATH, "r") as f:
+    with open(DEFAULTS_PATH, encoding="utf-8") as f:
         defaults = json.load(f)
 
-    with open(INFO_PATH, "r") as f:
+    with open(INFO_PATH, encoding="utf-8") as f:
         info = json.load(f)
 
     return model, defaults, info
