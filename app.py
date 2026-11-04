@@ -35,8 +35,7 @@ st.set_page_config(page_title="Home Price Estimator (Ames, Iowa)", page_icon="ðŸ
 
 @st.cache_resource
 def load_artifacts():
-    model, defaults, info = artifacts.load_artifacts()
-    return model, defaults, info, artifacts()
+    return artifacts.load_artifacts()
 
 
 model, defaults, info = load_artifacts()
