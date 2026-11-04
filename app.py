@@ -30,7 +30,7 @@ QUALITY_HELP = (
     "1 = very poor, 5 = average, 10 = very excellent. Judge the materials and finish of the house."
 )
 
-st.set_page_config(page_title="Home Price Estimator (Ames, Iowa)", page_icon="🏠", layout="wide")
+st.set_page_config(page_title="House Price Predition (Ames, Iowa)", page_icon="🏠", layout="wide")
 
 
 @st.cache_resource
