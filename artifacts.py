@@ -27,4 +27,4 @@ def load_artifacts():
     with open(INFO_PATH, encoding="utf-8") as f:
         info = json.load(f)
 
-    return model, defaults, info
+   return model, defaults, info
