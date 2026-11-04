@@ -1,1 +1,9 @@
-
+{
+    "model_name": "Random Forest Regressor",
+    "project": "Group 17 House Price Prediction",
+    "evaluation_metrics": {
+        "R2": null,
+        "RMSE": null,
+        "MAE": null
+    }
+}
