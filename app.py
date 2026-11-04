@@ -30,7 +30,7 @@ QUALITY_HELP = (
     "1 = very poor, 5 = average, 10 = very excellent. Judge the materials and finish of the house."
 )
 
-st.set_page_config(page_title="House Price Predition (Ames, Iowa)", page_icon="🏠", layout="wide")
+st.set_page_config(page_title="House Price Prediction (Ames, Iowa)", page_icon="🏠", layout="wide")
 
 
 @st.cache_resource
@@ -51,7 +51,7 @@ app_base = artifacts.load_app_baseline()
 
 st.title("🏠 Home Price Estimator")
 st.caption(
-    "Estimates the market value of a home in **Ames, Iowa** from its main features, and shows what pushes the "
+    "Predict the market value of a home in **Ames, Iowa** from its main features, and shows what pushes the "
     "price up or down. Trained on 1,458 home sales from 2006 to 2010. **An estimate only, not an appraisal, and "
     "not for lending decisions.**"
 )
