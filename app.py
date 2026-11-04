@@ -39,7 +39,7 @@ def load_artifacts():
     return model, defaults, info, artifacts.model_version()
 
 
-model, defaults, info, version = load_artifacts()
+model, defaults, info = load_artifacts()
 rng = defaults["ranges"]
 range_err = artifacts.range_rmsle(info)
 app_base = artifacts.load_app_baseline()
