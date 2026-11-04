@@ -41,6 +41,12 @@ def load_artifacts():
 model, defaults, info = load_artifacts()
 rng = defaults["ranges"]
 range_err = artifacts.range_rmsle(info)
+
+if range_err is None:
+    st.warning(
+        "Holdout RMSLE is not available. "
+        "Please provide the actual model evaluation result."
+    )
 app_base = artifacts.load_app_baseline()
 ach = info["targets_vs_achieved"]
 
