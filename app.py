@@ -92,7 +92,7 @@ signature = json.dumps(inputs, sort_keys=True, default=str)
 if st.session_state.get("_logged_signature") != signature:
     st.session_state["_logged_signature"] = signature
     st.session_state["_request_id"] = plog.log_prediction(
-        inputs, out, source="streamlit", model_version=version, latency_ms=latency_ms)
+        inputs, out, source="streamlit", latency_ms=latency_ms)
 
 with right:
     st.subheader("Estimate")
