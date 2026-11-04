@@ -1,0 +1,16 @@
+{
+  "n_homes": 292,
+  "all_features": {
+    "mae": 13235.560658326687,
+    "rmsle": 0.11083703802099043,
+    "within_15pct": 0.8732876712328768
+  },
+  "app_13_inputs": {
+    "mae": 17555.370568295584,
+    "rmsle": 0.1400609563025262,
+    "within_15pct": 0.7808219178082192,
+    "range_coverage_with_full_feature_range": 0.6541095890410958,
+    "range_coverage_with_own_range": 0.7602739726027398
+  },
+  "note": "80%-split model scored on the 292 held-out homes; defaults from the training split only."
+}
