@@ -60,11 +60,15 @@ def load_app_baseline():
     return data["app_13_inputs"]
 
 
-def range_rmsle(info):
-    """Return the appropriate prediction-range error."""
+def range_rmsle(info: dict) -> float:
     baseline = load_app_baseline()
 
-    if baseline:
-        return baseline["rmsle"]
+    if baseline is not None and "rmsle" in baseline:
+        return float(baseline["rmsle"])
 
-    return info["holdout_rmsle"]
+    value = info.get("holdout_rmsle")
+
+    if value is not None:
+        return float(value)
+
+    return None
