@@ -48,6 +48,7 @@ if range_err is None:
         "Please provide the actual model evaluation result."
     )
 app_base = artifacts.load_app_baseline()
+ach = info.get("targets_vs_achieved", {})
 
 st.title("🏠 Home Price Estimator")
 st.caption(
