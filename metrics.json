@@ -1,0 +1,59 @@
+{
+  "data_rows_raw": 1460,
+  "data_rows_used": 1458,
+  "train_rows": 1166,
+  "holdout_rows": 292,
+  "chosen_model": "Lasso (0.5) + LightGBM (0.5) average",
+  "holdout_rmsle": 0.11083703802099043,
+  "targets_vs_achieved": {
+    "rmsle": {
+      "target": 0.13,
+      "cv": 0.1089032930284862,
+      "holdout": 0.11083703802099043
+    },
+    "mae_usd": {
+      "target": 16000,
+      "holdout": 13235.560658326687
+    },
+    "rmse_usd": {
+      "holdout": 18546.299659648328
+    },
+    "r2": {
+      "target": 0.9,
+      "holdout": 0.9377295060478235
+    },
+    "within_15pct": {
+      "target": 0.8,
+      "holdout": 0.8732876712328768
+    },
+    "rmsle_reduction_vs_median_baseline_pct": 73.07526579634191,
+    "rmsle_reduction_vs_simple_linear_pct": 33.01416692012447,
+    "latency_s": {
+      "target": 2.0,
+      "measured": 0.11561781167984009
+    },
+    "model_mb": {
+      "target": 100,
+      "measured": 0.361831
+    }
+  },
+  "range_coverage": 0.7602739726027398,
+  "lasso_alpha": 0.00292090371703225,
+  "lasso_nonzero_coefficients": 94,
+  "n_model_features": 205,
+  "w_linear": 0.5,
+  "lightgbm_params": {
+    "n_estimators": 600,
+    "learning_rate": 0.02,
+    "num_leaves": 16,
+    "min_child_samples": 5,
+    "subsample": 0.7,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.4,
+    "reg_lambda": 0.0,
+    "random_state": 42,
+    "verbose": -1,
+    "n_jobs": 1
+  },
+  "seconds_total": 6.411022424697876
+}
