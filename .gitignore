@@ -1,9 +1,0 @@
-__pycache__/
-.pytest_cache/
-mlruns/
-mlflow.db
-logs/
-data/*.csv
-.env
-*.key
-.venv/
