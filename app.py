@@ -12,7 +12,6 @@ import streamlit as st
 
 import artifacts
 import housing as h
-import prediction_log as plog
 
 ROOT = Path(__file__).parent
 
